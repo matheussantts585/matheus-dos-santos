@@ -21,7 +21,7 @@ const Navbar = () => (
   <nav className="fixed top-0 w-full z-50 glass-nav border-b border-surface-container-highest/20">
     <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
       <div className="text-xl font-extrabold tracking-tighter text-primary font-manrope">
-        THE EDITORIAL LEDGER
+        CONTABILIDADE
       </div>
       <div className="hidden md:flex items-center space-x-8">
         <a href="#servicos" className="text-secondary font-semibold border-b-2 border-secondary transition-colors">Serviços</a>
@@ -277,7 +277,7 @@ const Footer = () => (
   <footer className="bg-surface-container-low py-16 px-8 border-t border-surface-container-highest/30">
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
       <div className="col-span-1">
-        <div className="text-lg font-extrabold text-primary font-manrope mb-4">THE EDITORIAL LEDGER</div>
+        <div className="text-lg font-extrabold text-primary font-manrope mb-4">CONTABILIDADE</div>
         <p className="text-on-surface-variant text-sm leading-relaxed max-w-xs">
           Strategic Accounting & Financial Consulting for businesses that value precision and growth.
         </p>
@@ -312,7 +312,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-surface-container-highest/30 text-center text-xs text-on-surface-variant">
-      © {new Date().getFullYear()} The Editorial Ledger. Strategic Accounting & Financial Consulting. Todos os direitos reservados.
+      © {new Date().getFullYear()} Contabilidade. Strategic Accounting & Financial Consulting. Todos os direitos reservados.
     </div>
   </footer>
 );
